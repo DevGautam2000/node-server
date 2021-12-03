@@ -2,7 +2,7 @@ const express = require("express");
 require("./db");
 require("dotenv").config();
 
-const Book = require("./models/BookModel");
+const Book = require("./schemas/BookSchema");
 const app = express();
 const port = process.env.PORT || 5000;
 const bookRouter = require("./routes/bookRouter");
