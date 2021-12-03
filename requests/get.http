@@ -1,0 +1,23 @@
+GET http://localhost:3000/api/books 
+
+# follwing is fetched from database
+# [
+#   {
+#     "_id": "61aa59b57b95ace3c04e22e1",
+#     "title": "Rich Dad Poor Dad",
+#     "author": "Robert Kiyosaki",
+#     "__v": 0
+#   },
+#   {
+#     "_id": "61aa5a197b95ace3c04e22e3",
+#     "title": "The Chord Chemistry",
+#     "author": "Tedd Greene",
+#     "__v": 0
+#   },
+#   {
+#     "_id": "61aa6225f55c5bd95c2bd32f",
+#     "title": "Blues All Around Me",
+#     "author": "B B King",
+#     "__v": 0
+#   }
+# ]

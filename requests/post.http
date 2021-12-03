@@ -1,0 +1,21 @@
+POST http://localhost:3000/ 
+Content-Type: application/json
+
+# book1
+# {
+#     "title": "Rich Dad Poor Dad",
+#     "author":"Robert Kiyosaki"
+# }
+
+# book2
+# {
+#     "title": "The Chord Chemistry",
+#     "author":"Tedd Greene"
+# }
+
+
+# book3
+{
+    "title": "Blues All Around Me",
+    "author":"B B King"
+}
