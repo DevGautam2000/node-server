@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
-const { PASSWORD, DB } = process.env;
-const pass = PASSWORD;
-const database = DB;
-const url = `mongodb+srv://${database}:${pass}@cluster0.6j0bx.mongodb.net/books`;
+const { PASSWORD, DB, DBUSER } = process.env;
+const url = `mongodb+srv://${DBUSER}:${PASSWORD}@cluster0.6j0bx.mongodb.net/${DB}`;
 const db = mongoose.connection;
 
 mongoose.connect(url, {
