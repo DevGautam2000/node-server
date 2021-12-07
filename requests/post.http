@@ -1,4 +1,4 @@
-POST http://localhost:3000/ 
+POST http://localhost:3000/books
 Content-Type: application/json
 
 # book1
@@ -18,4 +18,30 @@ Content-Type: application/json
 {
     "title": "Blues All Around Me",
     "author":"B B King"
+}
+
+POST http://localhost:3000/students
+Content-Type: application/json
+
+# student 1
+{
+  "student_name": "Gautam Chandra Saha",
+  "reg_no": "201900099",
+  "hobby": "sleeping"
+}
+
+
+# student 2
+{
+  "student_name": "abcd",
+  "reg_no": "2019abcd",
+  "hobby": "abcd"
+}
+
+
+# student 3
+{
+  "student_name": "efgh",
+  "reg_no": "2019efgh",
+  "hobby": "efgh"
 }
